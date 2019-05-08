@@ -19,6 +19,9 @@ gem 'devise', '~> 4.6', '>= 4.6.2'
 # API
 gem 'grape', '~> 1.2', '>= 1.2.3'
 
+# Documentation
+gem 'grape-swagger', '~> 0.32.1'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'factory_bot', '~> 5.0', '>= 5.0.2'
@@ -26,6 +29,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'grape_on_rails_routes'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'

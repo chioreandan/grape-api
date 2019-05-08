@@ -1,5 +1,5 @@
 class API < Grape::API
-  prefix 'api'
   format :json
-  mount Acme::Ping
+  mount ::V1::Base => 'api/v1'
 end
+
