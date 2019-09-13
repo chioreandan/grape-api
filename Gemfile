@@ -14,7 +14,7 @@ gem 'rails', '~> 5.2.3'
 gem 'pg', '>= 0.18', '< 2.0'
 
 # Auth
-gem 'devise', '~> 4.6', '>= 4.6.2'
+gem 'devise', '~> 4.7'
 
 # API
 gem 'grape', '~> 1.2', '>= 1.2.3'
