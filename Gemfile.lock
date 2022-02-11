@@ -107,12 +107,12 @@ GEM
     mustermann-grape (1.0.0)
       mustermann (~> 1.0.0)
     nio4r (2.3.1)
-    nokogiri (1.10.5)
     nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     pg (1.1.4)
-    puma (3.12.4)
+    puma (4.3.11)
+      nio4r (~> 2.0)
     rack (2.0.7)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -207,7 +207,7 @@ DEPENDENCIES
   grape_on_rails_routes
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
-  puma (~> 3.12)
+  puma (~> 4.3)
   rails (~> 5.2.3)
   rspec-rails (~> 3.4, >= 3.4.2)
   spring
